@@ -1,0 +1,102 @@
+[
+  {
+    "id": "F1_all_good",
+    "input": {
+      "hasClearGoal": true,
+      "hasDefinedConstraints": true,
+      "hasDeterministicLogic": true,
+      "hasHumanOverride": true,
+      "hasTestCases": true
+    }
+  },
+  {
+    "id": "F2_missing_goal",
+    "input": {
+      "hasClearGoal": false,
+      "hasDefinedConstraints": true,
+      "hasDeterministicLogic": true,
+      "hasHumanOverride": true,
+      "hasTestCases": true
+    }
+  },
+  {
+    "id": "F3_missing_constraints",
+    "input": {
+      "hasClearGoal": true,
+      "hasDefinedConstraints": false,
+      "hasDeterministicLogic": true,
+      "hasHumanOverride": true,
+      "hasTestCases": true
+    }
+  },
+  {
+    "id": "F4_missing_determinism",
+    "input": {
+      "hasClearGoal": true,
+      "hasDefinedConstraints": true,
+      "hasDeterministicLogic": false,
+      "hasHumanOverride": true,
+      "hasTestCases": true
+    }
+  },
+  {
+    "id": "F5_missing_override",
+    "input": {
+      "hasClearGoal": true,
+      "hasDefinedConstraints": true,
+      "hasDeterministicLogic": true,
+      "hasHumanOverride": false,
+      "hasTestCases": true
+    }
+  },
+  {
+    "id": "F6_missing_tests",
+    "input": {
+      "hasClearGoal": true,
+      "hasDefinedConstraints": true,
+      "hasDeterministicLogic": true,
+      "hasHumanOverride": true,
+      "hasTestCases": false
+    }
+  },
+  {
+    "id": "F7_multiple_blockers",
+    "input": {
+      "hasClearGoal": false,
+      "hasDefinedConstraints": false,
+      "hasDeterministicLogic": false,
+      "hasHumanOverride": false,
+      "hasTestCases": true
+    }
+  },
+  {
+    "id": "F8_blocker_plus_warn",
+    "input": {
+      "hasClearGoal": false,
+      "hasDefinedConstraints": true,
+      "hasDeterministicLogic": true,
+      "hasHumanOverride": true,
+      "hasTestCases": false
+    }
+  },
+  {
+    "id": "F9_warn_only",
+    "input": {
+      "hasClearGoal": true,
+      "hasDefinedConstraints": true,
+      "hasDeterministicLogic": true,
+      "hasHumanOverride": true,
+      "hasTestCases": false
+    }
+  },
+  {
+    "id": "F10_all_false",
+    "input": {
+      "hasClearGoal": false,
+      "hasDefinedConstraints": false,
+      "hasDeterministicLogic": false,
+      "hasHumanOverride": false,
+      "hasTestCases": false
+    }
+  }
+]
