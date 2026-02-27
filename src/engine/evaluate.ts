@@ -1,5 +1,10 @@
+import type { ExtractedContext } from "./types";
+import type { EvaluateResponse } from "../schema/output";
+
+import { ExtractedContextSchema } from "../schema/input";
+import { mapZodIssues } from "./explain";
+
 import {
-  ExtractedContext,
   EvaluationResult,
   RuleResult,
   Severity,
@@ -47,9 +52,9 @@ function deriveDecisionState(severity: Severity): DecisionState {
 }
 
 /**
- * Main evaluation entry
+ * Pure engine evaluation (requires validated input).
  */
-export function evaluate(ctx: ExtractedContext): EvaluationResult {
+function evaluatePure(ctx: ExtractedContext): EvaluationResult {
   const ruleResults: RuleResult[] = [
     R1(ctx),
     R2(ctx),
@@ -63,7 +68,6 @@ export function evaluate(ctx: ExtractedContext): EvaluationResult {
   ];
 
   const highestSeverity = getHighestSeverity(ruleResults);
-
   const decisionState = deriveDecisionState(highestSeverity);
 
   const reasoningTrace = ruleResults.map(
@@ -75,5 +79,29 @@ export function evaluate(ctx: ExtractedContext): EvaluationResult {
     highestSeverity,
     decisionState,
     reasoningTrace,
+  };
+}
+
+/**
+ * Boundary-safe evaluation (NO THROW).
+ * Accepts unknown input and returns deterministic result or deterministic validation error.
+ */
+export function evaluate(input: unknown): EvaluateResponse {
+  const parsed = ExtractedContextSchema.safeParse(input);
+
+  if (!parsed.success) {
+    return {
+      ok: false,
+      error: {
+        code: "INVALID_INPUT",
+        message: "Input does not match ExtractedContext schema.",
+        issues: mapZodIssues(parsed.error.issues),
+      },
+    };
+  }
+
+  return {
+    ok: true,
+    result: evaluatePure(parsed.data),
   };
 }

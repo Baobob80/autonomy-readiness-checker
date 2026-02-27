@@ -2,741 +2,771 @@
   {
     "id": "F1_all_good",
     "output": {
-      "ruleResults": [
-        {
-          "ruleId": "R1",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Clear goal present."
-        },
-        {
-          "ruleId": "R2",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Constraints defined."
-        },
-        {
-          "ruleId": "R3",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Deterministic logic confirmed."
-        },
-        {
-          "ruleId": "R4",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Human override present."
-        },
-        {
-          "ruleId": "R5",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Test cases defined."
-        },
-        {
-          "ruleId": "R6",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R7",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R8",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R9",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        }
-      ],
-      "highestSeverity": "NONE",
-      "decisionState": "READY",
-      "reasoningTrace": [
-        "R1: Clear goal present. (severity: NONE)",
-        "R2: Constraints defined. (severity: NONE)",
-        "R3: Deterministic logic confirmed. (severity: NONE)",
-        "R4: Human override present. (severity: NONE)",
-        "R5: Test cases defined. (severity: NONE)",
-        "R6: Reserved. (severity: NONE)",
-        "R7: Reserved. (severity: NONE)",
-        "R8: Reserved. (severity: NONE)",
-        "R9: Reserved. (severity: NONE)"
-      ]
+      "ok": true,
+      "result": {
+        "ruleResults": [
+          {
+            "ruleId": "R1",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Clear goal present."
+          },
+          {
+            "ruleId": "R2",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Constraints defined."
+          },
+          {
+            "ruleId": "R3",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Deterministic logic confirmed."
+          },
+          {
+            "ruleId": "R4",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Human override present."
+          },
+          {
+            "ruleId": "R5",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Test cases defined."
+          },
+          {
+            "ruleId": "R6",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R7",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R8",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R9",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          }
+        ],
+        "highestSeverity": "NONE",
+        "decisionState": "READY",
+        "reasoningTrace": [
+          "R1: Clear goal present. (severity: NONE)",
+          "R2: Constraints defined. (severity: NONE)",
+          "R3: Deterministic logic confirmed. (severity: NONE)",
+          "R4: Human override present. (severity: NONE)",
+          "R5: Test cases defined. (severity: NONE)",
+          "R6: Reserved. (severity: NONE)",
+          "R7: Reserved. (severity: NONE)",
+          "R8: Reserved. (severity: NONE)",
+          "R9: Reserved. (severity: NONE)"
+        ]
+      }
     }
   },
   {
     "id": "F2_missing_goal",
     "output": {
-      "ruleResults": [
-        {
-          "ruleId": "R1",
-          "triggered": true,
-          "severity": "BLOCKER",
-          "reasoning": "No clearly defined goal."
-        },
-        {
-          "ruleId": "R2",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Constraints defined."
-        },
-        {
-          "ruleId": "R3",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Deterministic logic confirmed."
-        },
-        {
-          "ruleId": "R4",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Human override present."
-        },
-        {
-          "ruleId": "R5",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Test cases defined."
-        },
-        {
-          "ruleId": "R6",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R7",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R8",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R9",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        }
-      ],
-      "highestSeverity": "BLOCKER",
-      "decisionState": "NOT_READY",
-      "reasoningTrace": [
-        "R1: No clearly defined goal. (severity: BLOCKER)",
-        "R2: Constraints defined. (severity: NONE)",
-        "R3: Deterministic logic confirmed. (severity: NONE)",
-        "R4: Human override present. (severity: NONE)",
-        "R5: Test cases defined. (severity: NONE)",
-        "R6: Reserved. (severity: NONE)",
-        "R7: Reserved. (severity: NONE)",
-        "R8: Reserved. (severity: NONE)",
-        "R9: Reserved. (severity: NONE)"
-      ]
+      "ok": true,
+      "result": {
+        "ruleResults": [
+          {
+            "ruleId": "R1",
+            "triggered": true,
+            "severity": "BLOCKER",
+            "reasoning": "No clearly defined goal."
+          },
+          {
+            "ruleId": "R2",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Constraints defined."
+          },
+          {
+            "ruleId": "R3",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Deterministic logic confirmed."
+          },
+          {
+            "ruleId": "R4",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Human override present."
+          },
+          {
+            "ruleId": "R5",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Test cases defined."
+          },
+          {
+            "ruleId": "R6",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R7",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R8",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R9",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          }
+        ],
+        "highestSeverity": "BLOCKER",
+        "decisionState": "NOT_READY",
+        "reasoningTrace": [
+          "R1: No clearly defined goal. (severity: BLOCKER)",
+          "R2: Constraints defined. (severity: NONE)",
+          "R3: Deterministic logic confirmed. (severity: NONE)",
+          "R4: Human override present. (severity: NONE)",
+          "R5: Test cases defined. (severity: NONE)",
+          "R6: Reserved. (severity: NONE)",
+          "R7: Reserved. (severity: NONE)",
+          "R8: Reserved. (severity: NONE)",
+          "R9: Reserved. (severity: NONE)"
+        ]
+      }
     }
   },
   {
     "id": "F3_missing_constraints",
     "output": {
-      "ruleResults": [
-        {
-          "ruleId": "R1",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Clear goal present."
-        },
-        {
-          "ruleId": "R2",
-          "triggered": true,
-          "severity": "BLOCKER",
-          "reasoning": "Constraints not explicitly defined."
-        },
-        {
-          "ruleId": "R3",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Deterministic logic confirmed."
-        },
-        {
-          "ruleId": "R4",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Human override present."
-        },
-        {
-          "ruleId": "R5",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Test cases defined."
-        },
-        {
-          "ruleId": "R6",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R7",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R8",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R9",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        }
-      ],
-      "highestSeverity": "BLOCKER",
-      "decisionState": "NOT_READY",
-      "reasoningTrace": [
-        "R1: Clear goal present. (severity: NONE)",
-        "R2: Constraints not explicitly defined. (severity: BLOCKER)",
-        "R3: Deterministic logic confirmed. (severity: NONE)",
-        "R4: Human override present. (severity: NONE)",
-        "R5: Test cases defined. (severity: NONE)",
-        "R6: Reserved. (severity: NONE)",
-        "R7: Reserved. (severity: NONE)",
-        "R8: Reserved. (severity: NONE)",
-        "R9: Reserved. (severity: NONE)"
-      ]
+      "ok": true,
+      "result": {
+        "ruleResults": [
+          {
+            "ruleId": "R1",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Clear goal present."
+          },
+          {
+            "ruleId": "R2",
+            "triggered": true,
+            "severity": "BLOCKER",
+            "reasoning": "Constraints not explicitly defined."
+          },
+          {
+            "ruleId": "R3",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Deterministic logic confirmed."
+          },
+          {
+            "ruleId": "R4",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Human override present."
+          },
+          {
+            "ruleId": "R5",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Test cases defined."
+          },
+          {
+            "ruleId": "R6",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R7",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R8",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R9",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          }
+        ],
+        "highestSeverity": "BLOCKER",
+        "decisionState": "NOT_READY",
+        "reasoningTrace": [
+          "R1: Clear goal present. (severity: NONE)",
+          "R2: Constraints not explicitly defined. (severity: BLOCKER)",
+          "R3: Deterministic logic confirmed. (severity: NONE)",
+          "R4: Human override present. (severity: NONE)",
+          "R5: Test cases defined. (severity: NONE)",
+          "R6: Reserved. (severity: NONE)",
+          "R7: Reserved. (severity: NONE)",
+          "R8: Reserved. (severity: NONE)",
+          "R9: Reserved. (severity: NONE)"
+        ]
+      }
     }
   },
   {
     "id": "F4_missing_determinism",
     "output": {
-      "ruleResults": [
-        {
-          "ruleId": "R1",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Clear goal present."
-        },
-        {
-          "ruleId": "R2",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Constraints defined."
-        },
-        {
-          "ruleId": "R3",
-          "triggered": true,
-          "severity": "BLOCKER",
-          "reasoning": "System lacks deterministic logic."
-        },
-        {
-          "ruleId": "R4",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Human override present."
-        },
-        {
-          "ruleId": "R5",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Test cases defined."
-        },
-        {
-          "ruleId": "R6",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R7",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R8",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R9",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        }
-      ],
-      "highestSeverity": "BLOCKER",
-      "decisionState": "NOT_READY",
-      "reasoningTrace": [
-        "R1: Clear goal present. (severity: NONE)",
-        "R2: Constraints defined. (severity: NONE)",
-        "R3: System lacks deterministic logic. (severity: BLOCKER)",
-        "R4: Human override present. (severity: NONE)",
-        "R5: Test cases defined. (severity: NONE)",
-        "R6: Reserved. (severity: NONE)",
-        "R7: Reserved. (severity: NONE)",
-        "R8: Reserved. (severity: NONE)",
-        "R9: Reserved. (severity: NONE)"
-      ]
+      "ok": true,
+      "result": {
+        "ruleResults": [
+          {
+            "ruleId": "R1",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Clear goal present."
+          },
+          {
+            "ruleId": "R2",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Constraints defined."
+          },
+          {
+            "ruleId": "R3",
+            "triggered": true,
+            "severity": "BLOCKER",
+            "reasoning": "System lacks deterministic logic."
+          },
+          {
+            "ruleId": "R4",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Human override present."
+          },
+          {
+            "ruleId": "R5",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Test cases defined."
+          },
+          {
+            "ruleId": "R6",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R7",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R8",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R9",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          }
+        ],
+        "highestSeverity": "BLOCKER",
+        "decisionState": "NOT_READY",
+        "reasoningTrace": [
+          "R1: Clear goal present. (severity: NONE)",
+          "R2: Constraints defined. (severity: NONE)",
+          "R3: System lacks deterministic logic. (severity: BLOCKER)",
+          "R4: Human override present. (severity: NONE)",
+          "R5: Test cases defined. (severity: NONE)",
+          "R6: Reserved. (severity: NONE)",
+          "R7: Reserved. (severity: NONE)",
+          "R8: Reserved. (severity: NONE)",
+          "R9: Reserved. (severity: NONE)"
+        ]
+      }
     }
   },
   {
     "id": "F5_missing_override",
     "output": {
-      "ruleResults": [
-        {
-          "ruleId": "R1",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Clear goal present."
-        },
-        {
-          "ruleId": "R2",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Constraints defined."
-        },
-        {
-          "ruleId": "R3",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Deterministic logic confirmed."
-        },
-        {
-          "ruleId": "R4",
-          "triggered": true,
-          "severity": "BLOCKER",
-          "reasoning": "No human override mechanism."
-        },
-        {
-          "ruleId": "R5",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Test cases defined."
-        },
-        {
-          "ruleId": "R6",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R7",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R8",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R9",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        }
-      ],
-      "highestSeverity": "BLOCKER",
-      "decisionState": "NOT_READY",
-      "reasoningTrace": [
-        "R1: Clear goal present. (severity: NONE)",
-        "R2: Constraints defined. (severity: NONE)",
-        "R3: Deterministic logic confirmed. (severity: NONE)",
-        "R4: No human override mechanism. (severity: BLOCKER)",
-        "R5: Test cases defined. (severity: NONE)",
-        "R6: Reserved. (severity: NONE)",
-        "R7: Reserved. (severity: NONE)",
-        "R8: Reserved. (severity: NONE)",
-        "R9: Reserved. (severity: NONE)"
-      ]
+      "ok": true,
+      "result": {
+        "ruleResults": [
+          {
+            "ruleId": "R1",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Clear goal present."
+          },
+          {
+            "ruleId": "R2",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Constraints defined."
+          },
+          {
+            "ruleId": "R3",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Deterministic logic confirmed."
+          },
+          {
+            "ruleId": "R4",
+            "triggered": true,
+            "severity": "BLOCKER",
+            "reasoning": "No human override mechanism."
+          },
+          {
+            "ruleId": "R5",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Test cases defined."
+          },
+          {
+            "ruleId": "R6",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R7",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R8",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R9",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          }
+        ],
+        "highestSeverity": "BLOCKER",
+        "decisionState": "NOT_READY",
+        "reasoningTrace": [
+          "R1: Clear goal present. (severity: NONE)",
+          "R2: Constraints defined. (severity: NONE)",
+          "R3: Deterministic logic confirmed. (severity: NONE)",
+          "R4: No human override mechanism. (severity: BLOCKER)",
+          "R5: Test cases defined. (severity: NONE)",
+          "R6: Reserved. (severity: NONE)",
+          "R7: Reserved. (severity: NONE)",
+          "R8: Reserved. (severity: NONE)",
+          "R9: Reserved. (severity: NONE)"
+        ]
+      }
     }
   },
   {
     "id": "F6_missing_tests",
     "output": {
-      "ruleResults": [
-        {
-          "ruleId": "R1",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Clear goal present."
-        },
-        {
-          "ruleId": "R2",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Constraints defined."
-        },
-        {
-          "ruleId": "R3",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Deterministic logic confirmed."
-        },
-        {
-          "ruleId": "R4",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Human override present."
-        },
-        {
-          "ruleId": "R5",
-          "triggered": true,
-          "severity": "WARN",
-          "reasoning": "No test cases defined."
-        },
-        {
-          "ruleId": "R6",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R7",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R8",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R9",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        }
-      ],
-      "highestSeverity": "WARN",
-      "decisionState": "BORDERLINE",
-      "reasoningTrace": [
-        "R1: Clear goal present. (severity: NONE)",
-        "R2: Constraints defined. (severity: NONE)",
-        "R3: Deterministic logic confirmed. (severity: NONE)",
-        "R4: Human override present. (severity: NONE)",
-        "R5: No test cases defined. (severity: WARN)",
-        "R6: Reserved. (severity: NONE)",
-        "R7: Reserved. (severity: NONE)",
-        "R8: Reserved. (severity: NONE)",
-        "R9: Reserved. (severity: NONE)"
-      ]
+      "ok": true,
+      "result": {
+        "ruleResults": [
+          {
+            "ruleId": "R1",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Clear goal present."
+          },
+          {
+            "ruleId": "R2",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Constraints defined."
+          },
+          {
+            "ruleId": "R3",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Deterministic logic confirmed."
+          },
+          {
+            "ruleId": "R4",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Human override present."
+          },
+          {
+            "ruleId": "R5",
+            "triggered": true,
+            "severity": "WARN",
+            "reasoning": "No test cases defined."
+          },
+          {
+            "ruleId": "R6",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R7",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R8",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R9",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          }
+        ],
+        "highestSeverity": "WARN",
+        "decisionState": "BORDERLINE",
+        "reasoningTrace": [
+          "R1: Clear goal present. (severity: NONE)",
+          "R2: Constraints defined. (severity: NONE)",
+          "R3: Deterministic logic confirmed. (severity: NONE)",
+          "R4: Human override present. (severity: NONE)",
+          "R5: No test cases defined. (severity: WARN)",
+          "R6: Reserved. (severity: NONE)",
+          "R7: Reserved. (severity: NONE)",
+          "R8: Reserved. (severity: NONE)",
+          "R9: Reserved. (severity: NONE)"
+        ]
+      }
     }
   },
   {
     "id": "F7_multiple_blockers",
     "output": {
-      "ruleResults": [
-        {
-          "ruleId": "R1",
-          "triggered": true,
-          "severity": "BLOCKER",
-          "reasoning": "No clearly defined goal."
-        },
-        {
-          "ruleId": "R2",
-          "triggered": true,
-          "severity": "BLOCKER",
-          "reasoning": "Constraints not explicitly defined."
-        },
-        {
-          "ruleId": "R3",
-          "triggered": true,
-          "severity": "BLOCKER",
-          "reasoning": "System lacks deterministic logic."
-        },
-        {
-          "ruleId": "R4",
-          "triggered": true,
-          "severity": "BLOCKER",
-          "reasoning": "No human override mechanism."
-        },
-        {
-          "ruleId": "R5",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Test cases defined."
-        },
-        {
-          "ruleId": "R6",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R7",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R8",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R9",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        }
-      ],
-      "highestSeverity": "BLOCKER",
-      "decisionState": "NOT_READY",
-      "reasoningTrace": [
-        "R1: No clearly defined goal. (severity: BLOCKER)",
-        "R2: Constraints not explicitly defined. (severity: BLOCKER)",
-        "R3: System lacks deterministic logic. (severity: BLOCKER)",
-        "R4: No human override mechanism. (severity: BLOCKER)",
-        "R5: Test cases defined. (severity: NONE)",
-        "R6: Reserved. (severity: NONE)",
-        "R7: Reserved. (severity: NONE)",
-        "R8: Reserved. (severity: NONE)",
-        "R9: Reserved. (severity: NONE)"
-      ]
+      "ok": true,
+      "result": {
+        "ruleResults": [
+          {
+            "ruleId": "R1",
+            "triggered": true,
+            "severity": "BLOCKER",
+            "reasoning": "No clearly defined goal."
+          },
+          {
+            "ruleId": "R2",
+            "triggered": true,
+            "severity": "BLOCKER",
+            "reasoning": "Constraints not explicitly defined."
+          },
+          {
+            "ruleId": "R3",
+            "triggered": true,
+            "severity": "BLOCKER",
+            "reasoning": "System lacks deterministic logic."
+          },
+          {
+            "ruleId": "R4",
+            "triggered": true,
+            "severity": "BLOCKER",
+            "reasoning": "No human override mechanism."
+          },
+          {
+            "ruleId": "R5",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Test cases defined."
+          },
+          {
+            "ruleId": "R6",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R7",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R8",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R9",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          }
+        ],
+        "highestSeverity": "BLOCKER",
+        "decisionState": "NOT_READY",
+        "reasoningTrace": [
+          "R1: No clearly defined goal. (severity: BLOCKER)",
+          "R2: Constraints not explicitly defined. (severity: BLOCKER)",
+          "R3: System lacks deterministic logic. (severity: BLOCKER)",
+          "R4: No human override mechanism. (severity: BLOCKER)",
+          "R5: Test cases defined. (severity: NONE)",
+          "R6: Reserved. (severity: NONE)",
+          "R7: Reserved. (severity: NONE)",
+          "R8: Reserved. (severity: NONE)",
+          "R9: Reserved. (severity: NONE)"
+        ]
+      }
     }
   },
   {
     "id": "F8_blocker_plus_warn",
     "output": {
-      "ruleResults": [
-        {
-          "ruleId": "R1",
-          "triggered": true,
-          "severity": "BLOCKER",
-          "reasoning": "No clearly defined goal."
-        },
-        {
-          "ruleId": "R2",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Constraints defined."
-        },
-        {
-          "ruleId": "R3",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Deterministic logic confirmed."
-        },
-        {
-          "ruleId": "R4",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Human override present."
-        },
-        {
-          "ruleId": "R5",
-          "triggered": true,
-          "severity": "WARN",
-          "reasoning": "No test cases defined."
-        },
-        {
-          "ruleId": "R6",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R7",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R8",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R9",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        }
-      ],
-      "highestSeverity": "BLOCKER",
-      "decisionState": "NOT_READY",
-      "reasoningTrace": [
-        "R1: No clearly defined goal. (severity: BLOCKER)",
-        "R2: Constraints defined. (severity: NONE)",
-        "R3: Deterministic logic confirmed. (severity: NONE)",
-        "R4: Human override present. (severity: NONE)",
-        "R5: No test cases defined. (severity: WARN)",
-        "R6: Reserved. (severity: NONE)",
-        "R7: Reserved. (severity: NONE)",
-        "R8: Reserved. (severity: NONE)",
-        "R9: Reserved. (severity: NONE)"
-      ]
+      "ok": true,
+      "result": {
+        "ruleResults": [
+          {
+            "ruleId": "R1",
+            "triggered": true,
+            "severity": "BLOCKER",
+            "reasoning": "No clearly defined goal."
+          },
+          {
+            "ruleId": "R2",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Constraints defined."
+          },
+          {
+            "ruleId": "R3",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Deterministic logic confirmed."
+          },
+          {
+            "ruleId": "R4",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Human override present."
+          },
+          {
+            "ruleId": "R5",
+            "triggered": true,
+            "severity": "WARN",
+            "reasoning": "No test cases defined."
+          },
+          {
+            "ruleId": "R6",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R7",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R8",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R9",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          }
+        ],
+        "highestSeverity": "BLOCKER",
+        "decisionState": "NOT_READY",
+        "reasoningTrace": [
+          "R1: No clearly defined goal. (severity: BLOCKER)",
+          "R2: Constraints defined. (severity: NONE)",
+          "R3: Deterministic logic confirmed. (severity: NONE)",
+          "R4: Human override present. (severity: NONE)",
+          "R5: No test cases defined. (severity: WARN)",
+          "R6: Reserved. (severity: NONE)",
+          "R7: Reserved. (severity: NONE)",
+          "R8: Reserved. (severity: NONE)",
+          "R9: Reserved. (severity: NONE)"
+        ]
+      }
     }
   },
   {
     "id": "F9_warn_only",
     "output": {
-      "ruleResults": [
-        {
-          "ruleId": "R1",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Clear goal present."
-        },
-        {
-          "ruleId": "R2",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Constraints defined."
-        },
-        {
-          "ruleId": "R3",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Deterministic logic confirmed."
-        },
-        {
-          "ruleId": "R4",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Human override present."
-        },
-        {
-          "ruleId": "R5",
-          "triggered": true,
-          "severity": "WARN",
-          "reasoning": "No test cases defined."
-        },
-        {
-          "ruleId": "R6",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R7",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R8",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R9",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        }
-      ],
-      "highestSeverity": "WARN",
-      "decisionState": "BORDERLINE",
-      "reasoningTrace": [
-        "R1: Clear goal present. (severity: NONE)",
-        "R2: Constraints defined. (severity: NONE)",
-        "R3: Deterministic logic confirmed. (severity: NONE)",
-        "R4: Human override present. (severity: NONE)",
-        "R5: No test cases defined. (severity: WARN)",
-        "R6: Reserved. (severity: NONE)",
-        "R7: Reserved. (severity: NONE)",
-        "R8: Reserved. (severity: NONE)",
-        "R9: Reserved. (severity: NONE)"
-      ]
+      "ok": true,
+      "result": {
+        "ruleResults": [
+          {
+            "ruleId": "R1",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Clear goal present."
+          },
+          {
+            "ruleId": "R2",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Constraints defined."
+          },
+          {
+            "ruleId": "R3",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Deterministic logic confirmed."
+          },
+          {
+            "ruleId": "R4",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Human override present."
+          },
+          {
+            "ruleId": "R5",
+            "triggered": true,
+            "severity": "WARN",
+            "reasoning": "No test cases defined."
+          },
+          {
+            "ruleId": "R6",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R7",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R8",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R9",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          }
+        ],
+        "highestSeverity": "WARN",
+        "decisionState": "BORDERLINE",
+        "reasoningTrace": [
+          "R1: Clear goal present. (severity: NONE)",
+          "R2: Constraints defined. (severity: NONE)",
+          "R3: Deterministic logic confirmed. (severity: NONE)",
+          "R4: Human override present. (severity: NONE)",
+          "R5: No test cases defined. (severity: WARN)",
+          "R6: Reserved. (severity: NONE)",
+          "R7: Reserved. (severity: NONE)",
+          "R8: Reserved. (severity: NONE)",
+          "R9: Reserved. (severity: NONE)"
+        ]
+      }
     }
   },
   {
     "id": "F10_all_false",
     "output": {
-      "ruleResults": [
-        {
-          "ruleId": "R1",
-          "triggered": true,
-          "severity": "BLOCKER",
-          "reasoning": "No clearly defined goal."
-        },
-        {
-          "ruleId": "R2",
-          "triggered": true,
-          "severity": "BLOCKER",
-          "reasoning": "Constraints not explicitly defined."
-        },
-        {
-          "ruleId": "R3",
-          "triggered": true,
-          "severity": "BLOCKER",
-          "reasoning": "System lacks deterministic logic."
-        },
-        {
-          "ruleId": "R4",
-          "triggered": true,
-          "severity": "BLOCKER",
-          "reasoning": "No human override mechanism."
-        },
-        {
-          "ruleId": "R5",
-          "triggered": true,
-          "severity": "WARN",
-          "reasoning": "No test cases defined."
-        },
-        {
-          "ruleId": "R6",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R7",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R8",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        },
-        {
-          "ruleId": "R9",
-          "triggered": false,
-          "severity": "NONE",
-          "reasoning": "Reserved."
-        }
-      ],
-      "highestSeverity": "BLOCKER",
-      "decisionState": "NOT_READY",
-      "reasoningTrace": [
-        "R1: No clearly defined goal. (severity: BLOCKER)",
-        "R2: Constraints not explicitly defined. (severity: BLOCKER)",
-        "R3: System lacks deterministic logic. (severity: BLOCKER)",
-        "R4: No human override mechanism. (severity: BLOCKER)",
-        "R5: No test cases defined. (severity: WARN)",
-        "R6: Reserved. (severity: NONE)",
-        "R7: Reserved. (severity: NONE)",
-        "R8: Reserved. (severity: NONE)",
-        "R9: Reserved. (severity: NONE)"
-      ]
+      "ok": true,
+      "result": {
+        "ruleResults": [
+          {
+            "ruleId": "R1",
+            "triggered": true,
+            "severity": "BLOCKER",
+            "reasoning": "No clearly defined goal."
+          },
+          {
+            "ruleId": "R2",
+            "triggered": true,
+            "severity": "BLOCKER",
+            "reasoning": "Constraints not explicitly defined."
+          },
+          {
+            "ruleId": "R3",
+            "triggered": true,
+            "severity": "BLOCKER",
+            "reasoning": "System lacks deterministic logic."
+          },
+          {
+            "ruleId": "R4",
+            "triggered": true,
+            "severity": "BLOCKER",
+            "reasoning": "No human override mechanism."
+          },
+          {
+            "ruleId": "R5",
+            "triggered": true,
+            "severity": "WARN",
+            "reasoning": "No test cases defined."
+          },
+          {
+            "ruleId": "R6",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R7",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R8",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          },
+          {
+            "ruleId": "R9",
+            "triggered": false,
+            "severity": "NONE",
+            "reasoning": "Reserved."
+          }
+        ],
+        "highestSeverity": "BLOCKER",
+        "decisionState": "NOT_READY",
+        "reasoningTrace": [
+          "R1: No clearly defined goal. (severity: BLOCKER)",
+          "R2: Constraints not explicitly defined. (severity: BLOCKER)",
+          "R3: System lacks deterministic logic. (severity: BLOCKER)",
+          "R4: No human override mechanism. (severity: BLOCKER)",
+          "R5: No test cases defined. (severity: WARN)",
+          "R6: Reserved. (severity: NONE)",
+          "R7: Reserved. (severity: NONE)",
+          "R8: Reserved. (severity: NONE)",
+          "R9: Reserved. (severity: NONE)"
+        ]
+      }
     }
   }
 ]
