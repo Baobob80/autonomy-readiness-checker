@@ -1,0 +1,1 @@
+﻿root = true[*]charset = utf-8end_of_line = lfinsert_final_newline = truetrim_trailing_whitespace = trueindent_style = spaceindent_size = 2[*.md]trim_trailing_whitespace = false[*.yml]indent_size = 2[*.yaml]indent_size = 2[*.json]indent_size = 2[*.ps1]end_of_line = crlfindent_size = 4[*.bat]end_of_line = crlf[*.cmd]end_of_line = crlf
