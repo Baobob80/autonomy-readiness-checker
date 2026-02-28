@@ -1,0 +1,57 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`API contract (engine boundary) > matches EvaluateResponseSchema and stable contract shape 1`] = `
+{
+  "decisionState": "READY",
+  "highestSeverity": "NONE",
+  "ok": true,
+  "ruleResults": [
+    {
+      "ruleId": "R1",
+      "severity": "NONE",
+      "triggered": false,
+    },
+    {
+      "ruleId": "R2",
+      "severity": "NONE",
+      "triggered": false,
+    },
+    {
+      "ruleId": "R3",
+      "severity": "NONE",
+      "triggered": false,
+    },
+    {
+      "ruleId": "R4",
+      "severity": "NONE",
+      "triggered": false,
+    },
+    {
+      "ruleId": "R5",
+      "severity": "NONE",
+      "triggered": false,
+    },
+    {
+      "ruleId": "R6",
+      "severity": "NONE",
+      "triggered": false,
+    },
+    {
+      "ruleId": "R7",
+      "severity": "NONE",
+      "triggered": false,
+    },
+    {
+      "ruleId": "R8",
+      "severity": "NONE",
+      "triggered": false,
+    },
+    {
+      "ruleId": "R9",
+      "severity": "NONE",
+      "triggered": false,
+    },
+  ],
+  "schemaVersion": "1.0.0",
+}
+`;
