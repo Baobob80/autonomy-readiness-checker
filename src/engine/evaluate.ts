@@ -2,15 +2,10 @@ import type { ExtractedContext } from "./types";
 import type { EvaluateResponse } from "../schema/output";
 
 import { ExtractedContextSchema } from "../schema/input";
+import { EvaluateResponseSchema, SCHEMA_VERSION } from "../schema/output";
 import { mapZodIssues } from "./explain";
 
-import {
-  EvaluationResult,
-  RuleResult,
-  Severity,
-  DecisionState,
-} from "./types";
-
+import { EvaluationResult, RuleResult, Severity, DecisionState } from "./types";
 import { R1, R2, R3, R4, R5, R6, R7, R8, R9 } from "./rules";
 
 /**
@@ -90,18 +85,28 @@ export function evaluate(input: unknown): EvaluateResponse {
   const parsed = ExtractedContextSchema.safeParse(input);
 
   if (!parsed.success) {
-    return {
+    const res: EvaluateResponse = {
       ok: false,
+      schemaVersion: SCHEMA_VERSION,
       error: {
         code: "INVALID_INPUT",
         message: "Input does not match ExtractedContext schema.",
         issues: mapZodIssues(parsed.error.issues),
       },
     };
+
+    // Internal sanity check (dev-time guard, no throw for callers):
+    EvaluateResponseSchema.parse(res);
+    return res;
   }
 
-  return {
+  const res: EvaluateResponse = {
     ok: true,
+    schemaVersion: SCHEMA_VERSION,
     result: evaluatePure(parsed.data),
   };
+
+  // Internal sanity check (dev-time guard):
+  EvaluateResponseSchema.parse(res);
+  return res;
 }

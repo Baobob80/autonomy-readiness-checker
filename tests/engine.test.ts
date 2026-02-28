@@ -16,6 +16,7 @@ describe("Deterministic Engine Evaluation (boundary-safe)", () => {
     expect(res.ok).toBe(true);
     if (!res.ok) return;
 
+    expect(res.schemaVersion).toBeDefined();
     expect(res.result.highestSeverity).toBe("NONE");
     expect(res.result.decisionState).toBe("READY");
   });
@@ -46,7 +47,25 @@ describe("Deterministic Engine Evaluation (boundary-safe)", () => {
     expect(res.ok).toBe(false);
     if (res.ok) return;
 
+    expect(res.schemaVersion).toBeDefined();
     expect(res.error.code).toBe("INVALID_INPUT");
     expect(res.error.issues.length).toBeGreaterThan(0);
+  });
+
+  it("STRICT: rejects unknown fields deterministically", () => {
+    const res = evaluate({ ...baseContext, extra: true });
+
+    expect(res.ok).toBe(false);
+    if (res.ok) return;
+
+    expect(res.error.code).toBe("INVALID_INPUT");
+    expect(res.error.issues.length).toBeGreaterThan(0);
+  });
+
+  it("idempotence: same input -> same output", () => {
+    const a = evaluate(baseContext);
+    const b = evaluate(baseContext);
+
+    expect(a).toEqual(b);
   });
 });

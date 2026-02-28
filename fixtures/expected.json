@@ -3,6 +3,7 @@
     "id": "F1_all_good",
     "output": {
       "ok": true,
+      "schemaVersion": "1.0.0",
       "result": {
         "ruleResults": [
           {
@@ -80,6 +81,7 @@
     "id": "F2_missing_goal",
     "output": {
       "ok": true,
+      "schemaVersion": "1.0.0",
       "result": {
         "ruleResults": [
           {
@@ -157,6 +159,7 @@
     "id": "F3_missing_constraints",
     "output": {
       "ok": true,
+      "schemaVersion": "1.0.0",
       "result": {
         "ruleResults": [
           {
@@ -234,6 +237,7 @@
     "id": "F4_missing_determinism",
     "output": {
       "ok": true,
+      "schemaVersion": "1.0.0",
       "result": {
         "ruleResults": [
           {
@@ -311,6 +315,7 @@
     "id": "F5_missing_override",
     "output": {
       "ok": true,
+      "schemaVersion": "1.0.0",
       "result": {
         "ruleResults": [
           {
@@ -388,6 +393,7 @@
     "id": "F6_missing_tests",
     "output": {
       "ok": true,
+      "schemaVersion": "1.0.0",
       "result": {
         "ruleResults": [
           {
@@ -465,6 +471,7 @@
     "id": "F7_multiple_blockers",
     "output": {
       "ok": true,
+      "schemaVersion": "1.0.0",
       "result": {
         "ruleResults": [
           {
@@ -542,6 +549,7 @@
     "id": "F8_blocker_plus_warn",
     "output": {
       "ok": true,
+      "schemaVersion": "1.0.0",
       "result": {
         "ruleResults": [
           {
@@ -619,6 +627,7 @@
     "id": "F9_warn_only",
     "output": {
       "ok": true,
+      "schemaVersion": "1.0.0",
       "result": {
         "ruleResults": [
           {
@@ -696,6 +705,7 @@
     "id": "F10_all_false",
     "output": {
       "ok": true,
+      "schemaVersion": "1.0.0",
       "result": {
         "ruleResults": [
           {
