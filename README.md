@@ -1,5 +1,9 @@
 # Autonomy Readiness Checker
 
+## Live Demo
+
+https://autonomy-readiness-checker.vercel.app
+
 Governance-first deterministic engine for evaluating AI autonomy readiness.
 
 ---
