@@ -1,5 +1,23 @@
 # Autonomy Readiness Checker
+## Problem
 
+Most AI systems evaluate capability.
+
+Far fewer evaluate governance readiness.
+
+Autonomy Readiness Checker evaluates whether a system demonstrates the minimum governance conditions required before autonomy should be considered.
+
+The architecture intentionally separates:
+
+- extraction
+- evaluation
+- authority
+
+LLM extracts.
+
+Rules decide.
+
+Humans retain final authority.
 ## Live Demo
 
 https://autonomy-readiness-checker.vercel.app
@@ -45,6 +63,26 @@ Core principles:
 
 ---
 
+mermaid
+flowchart TD
+
+A[Context Input]
+--> B[Extraction Layer]
+
+B --> C[Governance Signals]
+
+C --> D[Deterministic Rule Engine]
+
+D --> E[Admissibility Decision]
+
+E --> F[Human Authority]
+
+F --> G[Final Output]
+
+G --> H[Audit Record]
+
+---
+
 ## ⚙️ Tech Stack
 
 - Next.js 16
@@ -56,6 +94,25 @@ Core principles:
 ---
 
 ## 🚀 Local Development
+
+---
+
+## Evidence
+
+Current verified state:
+
+- Replay Determinism Verified
+- Topology Integrity Verified
+- Human Authority Boundary Verified
+- Governance Stability Verified
+
+Current operating mode:
+
+- ERA 2 Locked
+- Pressure Phase Active
+- Architecture Evolution Not Justified
+
+The project remains in evidence collection mode rather than architecture expansion mode.
 
 Clone the repository:
 
