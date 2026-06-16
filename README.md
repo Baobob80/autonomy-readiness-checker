@@ -63,7 +63,7 @@ Core principles:
 
 ---
 
-mermaid
+```mermaid
 flowchart TD
 
 A[Context Input]
@@ -80,6 +80,7 @@ E --> F[Human Authority]
 F --> G[Final Output]
 
 G --> H[Audit Record]
+```
 
 ---
 
